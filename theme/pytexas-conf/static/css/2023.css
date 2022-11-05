@@ -1,0 +1,51 @@
+.bg-conf-color {
+    background-color: #000000 !important;
+}
+
+.navbar {
+    background: #2baaf4 !important;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.btn-conf {
+    background: #fff;
+    color: #2baaf4 !important;
+    background-color: #fffc00;
+}
+
+
+.text-conf-primary,
+text-conf-primary h1,
+text-conf-primary h2,
+text-conf-primary h3,
+text-conf-primary h4,
+text-conf-primary h5 {
+    color: #2baaf4;
+}
+
+a {
+    color: #fc9419;
+    text-decoration: none;
+    background-color: transparent
+}
+
+.btn:hover {
+    color: #ffce12;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ff5003;
+    text-decoration: none
+}
+
+.table td {
+    text-align: center;
+}
+
+.table th {
+    text-align: center;
+}

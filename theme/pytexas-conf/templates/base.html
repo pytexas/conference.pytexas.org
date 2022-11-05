@@ -3,27 +3,27 @@
 
 <head>
   <meta charset="utf-8">
-  <title>PyTexas 2022</title>
+  <title>PyTexas {{CONFERENCE_YEAR}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="The largest community-run Python event in Texas. Returning in person March 26 - 27, 2022 at the Austin Public Library">
+    content="The largest community-run Python event in Texas. Returning in person {{CONFERENCE_DATES}} at the Austin Public Library">
   <meta name="twitter:image:src" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/brand2022.png" />
   <meta name="twitter:site" content="@pytexas" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="PyTexas 2022" />
+  <meta name="twitter:title" content="{{CONFERENCE_YEAR}}" />
   <meta name="twitter:description"
-    content="The largest community-run Python event in Texas. Returning in person March 26 - 27, 2022 at the Austin Public Library" />
+    content="The largest community-run Python event in Texas. Returning in person {CONFERENCE_DATES}} at the Austin Public Library" />
   <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/brand2022.png" />
-  <meta property="og:site_name" content="PyTexas 2022" />
+  <meta property="og:site_name" content="PyTexas {{CONFERENCE_YEAR}}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="PyTexas 2022" />
+  <meta property="og:title" content="{{CONFERENCE_YEAR}}" />
   <meta property="og:description"
-    content="The largest community-run Python event in Texas. Returning in person March 26 - 27, 2022 at the Austin Public Library" />
+    content="The largest community-run Python event in Texas. Returning in person {CONFERENCE_DATES}} at the Austin Public Library" />
   <script type="text/javascript">
     window.addEventListener("load", function () { document.querySelector('body').classList.add('loaded'); });
   </script>
   <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/theme.min.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/2022.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/2023.css" rel="stylesheet" type="text/css" media="all" />
 
   {% if FEED_RSS %}
     <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }}-Feed" />
@@ -41,7 +41,7 @@
     <div class="loading-animation"></div>
   </div>
   <div class="navbar-container ">
-    <nav class="navbar navbar-expand-lg navbar-dark" data-overlay data-sticky="top">
+    <nav class="navbar navbar-expand-lg" data-overlay data-sticky="top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
         aria-expanded="false" aria-label="Toggle navigation">
         <img class="icon navbar-toggler-open" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/icons/interface/menu.svg" alt="menu interface icon"
@@ -80,7 +80,7 @@
           </ul>
         </div>
       </div>
-      <a href="https://ti.to/pytexas/2023" class="btn btn-2022-orange bg-2022-purple mx-lg-3">Get Your Ticket to PyTexas!</a>
+      <a href="https://ti.to/pytexas/2023" class="btn btn-conf mx-lg-3">Get Your Ticket to PyTexas!</a>
     </nav>
   </div>
 

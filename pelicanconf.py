@@ -15,6 +15,9 @@ SITESRC = "https://github.com/pytexas/conference.pytexas.org"
 SITELOGO = SITEURL + "/static/favicon.png"
 FAVICON = SITEURL + "/static/favicon.ico"
 
+CONFERENCE_YEAR = 2023
+CONFERENCE_DATES = "April 1 & 2, 2023"
+
 PATH = "content/"
 
 TIMEZONE = "America/Chicago"
