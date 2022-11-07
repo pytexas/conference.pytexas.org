@@ -76,10 +76,10 @@ MENUITEMS = {
     "Attend": {
         "Index": "/attend",
         "Pages": {
+            "Health and Saftey Guidelines": "/attend/health",
             "Venue": "/attend/venue",
             "Parking": "/attend/parking",
             "Food": "/attend/food",
-            "Health": "/attend/health",
             "Grants": "/attend/grants",
         },
         "Dropdown": True,

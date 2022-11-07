@@ -3,17 +3,31 @@
 }
 
 .navbar {
-    background: #2baaf4 !important;
+    background: #F7931E !important;
 }
 
 .navbar a {
-    color: #ffffff;
+    color: #000000;
+    font-size: 1.5rem;
 }
+
+.navbar a:hover {
+    color: #FFFFFF;
+}
+
+.dropdown-grid-menu a {
+    color: #000000;
+}
+
+.dropdown-grid-menu a:hover {
+    color: #29abe2;
+}
+
 
 .btn-conf {
     background: #fff;
-    color: #2baaf4 !important;
-    background-color: #fffc00;
+    color: #ffff00 !important;
+    background-color: #000000;
 }
 
 
@@ -23,11 +37,11 @@ text-conf-primary h2,
 text-conf-primary h3,
 text-conf-primary h4,
 text-conf-primary h5 {
-    color: #2baaf4;
+    color: #29abe2;
 }
 
 a {
-    color: #fc9419;
+    color: #F7931E;
     text-decoration: none;
     background-color: transparent
 }
@@ -38,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: #ff5003;
+    color: #29abe2;
     text-decoration: none
 }
 
@@ -48,4 +62,8 @@ a:hover {
 
 .table th {
     text-align: center;
+}
+
+.bg-highlight {
+    background-color: #F7931E;
 }
