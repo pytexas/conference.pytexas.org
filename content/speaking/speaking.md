@@ -7,7 +7,7 @@ date: 2022-10-23
 ---
 
 ## Conference format
-PyTexas is a single-track conference with a total attendence of ~250 people.
+PyTexas is a single-track conference with a total attendance of ~250 people.
 
 ## Call for proposals
 The PyTexas call for proposals is here: <FIX-ME> <https://www.papercall.io/pytexas-2022>
